@@ -1,0 +1,253 @@
+body{
+    background-color: rgba(12, 58, 209, 0.938) !important;
+}
+.main{
+    margin: 83px 45px;
+    background-image: url(/images/main.PNG);
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.inner{
+    margin: 10px;
+}
+.right img{
+    height: 500px;
+}
+
+ul.menu-ul {
+    list-style: none;
+    display: flex;
+    color: aquamarine;
+    justify-content: space-evenly;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+li.menu-item a {
+    color: white;
+}
+#last {
+    color: aqua;
+}
+
+div#about{
+    position: absolute;
+    top: 34%;
+    left: 7%;
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+}
+
+h1.wd {
+    color: #4a4a4a;
+    text-decoration: underline;
+}
+
+p.febe {
+    text-align: end;
+    color: cadetblue;
+}
+
+p.name {
+    font-size: 31px;
+    color: currentColor;
+}
+
+.name span {
+    color: #ee4664;
+}
+
+
+@media (max-width:660px){
+    .main {
+        margin: 0px !important;
+        height: 562px !important;
+    }
+    .right{
+        display: none !important;
+    }
+
+    .container {
+padding: 0px !important
+    }
+    ul.social-ul {
+        display: flex;
+    }
+    .social {
+        position: absolute;
+        top: 85% !important;
+        right: 21% !important;
+    }
+    ul.social-ul li {
+        font-size: 33px;
+        text-align: center;
+        background: #ffffff;
+        padding: 1px;
+        margin: 10px 14px !important;
+        border-radius: 8px;
+    }
+    div#skills {
+    width: 290px !important;
+    }
+    div#contact {
+        left: 0% !important;
+    }
+    .cinner ul {
+        list-style: none;
+        font-size: 14px !important;
+    }
+    li.menu-item {
+        text-align: center;
+        margin: 12px 5px;
+    }
+    div#example {
+        width: 342px !important;
+    }
+    img#e1 {
+    width: 83px !important;
+    }
+}
+
+
+
+div#skills {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+    width: 393px;
+}
+
+.bg1{
+    background-color: #ee4664 !important;
+}
+
+.progress-bar.bg2 {
+    background-color: yellow !important;
+}
+
+
+.none{
+    display: none;
+}
+
+div#example {
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+    width: 500px;
+}
+
+img#e1 {
+    cursor: pointer;
+    height: 169px;
+    width: 114px;
+    margin: 12px 10px;
+    box-shadow: 0 0 6px 3px #4aa923;
+}
+
+div#contact {
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+    width: 500px;
+}
+
+.cinner ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+
+.social {
+    position: absolute;
+    top: 34%;
+    right: 7%;
+}
+
+ul.social-ul {
+    list-style: none;
+}
+
+ul.social-ul li {
+    font-size: 33px;
+    text-align: center;
+    background: #ffffff;
+    padding: 1px;
+    margin: 8px 0px;
+    border-radius: 8px;
+}
+i.fab.fa-facebook-f {
+    color: blue;
+}
+
+i.fab.fa-github {
+    color: black;
+}
+i.fab.fa-instagram {
+    color: #ff0530;
+}
+
+i.far.fa-envelope {
+    color: chocolate;
+}
+
+.anime{
+    animation-name: blink;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+    0%   {background-color: red;}
+    25%  {background-color: #00ffd0;}
+    50%  {background-color: #a9ff00;}
+    100% {background-color: #c0ffc8;}
+}
+
+/* body {
+	
+	        animation: bg 8s linear infinite alternate both;
+}
+@-webkit-keyframes bg {
+    0% {
+      background: #282a2b;
+    }
+    25% {
+      background: #d1b6e0;
+    }
+    50% {
+      background: #6388ce;
+    }
+    75% {
+      background: #87f3f7;
+    }
+    100% {
+      background: #3bd80d;
+    }
+  }
+  @keyframes bg {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: #ea2222;
+    }
+    75% {
+      background: #f5be10;
+    }
+    100% {
+      background: #3bd80d;
+    }
+  }
+   */
